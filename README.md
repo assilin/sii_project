@@ -4,13 +4,18 @@ This project delves into the implementation and functionality of the MQTT (Messa
 
 ----
 ## 1. Sources
+OpenWeatherMap is a website providing comprehensive weather data, forecasts, and weather-related services for worldwide locations.
 https://openweathermap.org/
+
+HiveMQ is a platform providing enterprise-ready MQTT messaging solutions for reliable and scalable communication between IoT devices.
 https://www.hivemq.com/
+
+The Telegram Bot API is a comprehensive platform offering tools and interfaces for creating and managing Telegram bots with various functionalities.
 https://core.telegram.org/bots/api
 
 
 ## 2. Publisher
-Run `mqtt_publisher.py` to publish topics to the broker
+Run `mqtt_publisher.py` to publish topics to the MQTT broker
 The list of avaluable topics is in `topics.topics_pub = [...]`
 
 
